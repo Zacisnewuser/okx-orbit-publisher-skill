@@ -1,0 +1,6 @@
+interface:
+  display_name: "OKX 星球运营助手"
+  short_description: "通过聊天配置星球运营，按需接入浏览器与定时工具，支持预览、暂停和自检"
+  default_prompt: "使用 $okx-orbit-publisher 引导我配置 OKX 星球运营，先准备一份草稿并检查需要哪些工具。"
+policy:
+  allow_implicit_invocation: true

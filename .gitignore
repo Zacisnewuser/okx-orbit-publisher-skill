@@ -1,0 +1,26 @@
+# Personal runtime data and credentials must never be committed.
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+*.db
+*.db-*
+*.sqlite3-*
+*.log
+*.local.json
+*.local.yaml
+setup.local.json
+state/
+data/
+backups/
+dist/
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+*.pem
+*.key
